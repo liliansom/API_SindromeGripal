@@ -1,2 +1,2 @@
-# API_S-ndromeGripal
+# API_SíndromeGripal
 Consumo de API Pública do OpenDataSUS
