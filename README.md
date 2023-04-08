@@ -2,25 +2,25 @@
 
 
 ## Passo a Passo
-1. Definição do Problema
-2. Obtenção dos Dados
-3. Exploração dos Dados
-4. Preparação dos Dados
-5. Armazenamento dos Dados
-6. Apresentação dos Dados
+1. Definição do Problema<br>
+2. Obtenção dos Dados<br>
+3. Exploração dos Dados<br>
+4. Preparação dos Dados<br>
+5. Armazenamento dos Dados<br>
+6. Apresentação dos Dados<br>
 
 
 ## 1. Definição do Problema
 #### explicar sobre a api e elasticsearch
-A partir da ingestão de uma API Pública do OpenDataSUS que está no Elastic Search, será realizada uma análise inicial para compreender a API, após será realizada a exploratória dos dados, o tratamento dos dados e o armazenamento dos dados tratados e, por fim, a plotagem de tabelas e gráficos como resultado final.
+A partir da ingestão de uma API Pública do OpenDataSUS que está no Elastic Search, será realizada uma análise inicial para compreender a API, após será realizada a exploratória dos dados, o tratamento dos dados e o armazenamento dos dados tratados e, por fim, a plotagem de tabelas e gráficos como resultado final.<br>
 
 
-Devido ao início do outono brasileiro em 2023 e a melhora aparente dos casos de COVID-19, surge a questão do aumento de casos de Covid-19 na próxima estação. Como questões norteadoras desta projeto, foram colocadas:
-* Questões Principais:
+Devido ao início do outono brasileiro em 2023 e a melhora aparente dos casos de COVID-19, surge a questão do aumento de casos de Covid-19 na próxima estação. Como questões norteadoras desta projeto, foram colocadas:<br>
+* Questões Principais:<br>
 <li> Quantas são as notificações dos casos de síndrome gripal neste momento: no Brasil e em São Paulo?</li>
 <li> Será que haverá um aumento de notificações de síndrome gripal com o inverno? </li>
 
-* Questões secundárias:
+* Questões secundárias:<br>
 <li> Quais são os principais testes para detecção de COVID utilizados no país?</li>
 
 ## 2. Obtenção dos Dados
@@ -28,11 +28,11 @@ Segundo o site do Elastic Search (https://www.elastic.co/pt/what-is/elasticsearc
 
 Os dados serão coletados a partir de sua API: https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-api-elasticsearch<br>
 
-Segundo o site do Elasticsearch, ele armazena dados como documentos JSON. Cada documento correlaciona um conjunto de chaves (nomes de campos ou propriedades) aos seus valores correspondentes (strings, números, boolianos, datas, matrizes de valores, geolocalizações ou outros tipos de dados).
+Segundo o site do Elasticsearch, ele armazena dados como documentos JSON. Cada documento correlaciona um conjunto de chaves (nomes de campos ou propriedades) aos seus valores correspondentes (strings, números, boolianos, datas, matrizes de valores, geolocalizações ou outros tipos de dados).<br>
 
-O Elasticsearch usa uma estrutura de dados chamada índice invertido, que é projetada para permitir buscas de texto completo muito rápidas. Um índice invertido lista cada palavra exclusiva que apareça em qualquer documento e identifica todos os documentos em que cada palavra aparece.
+O Elasticsearch usa uma estrutura de dados chamada índice invertido, que é projetada para permitir buscas de texto completo muito rápidas. Um índice invertido lista cada palavra exclusiva que apareça em qualquer documento e identifica todos os documentos em que cada palavra aparece.<br>
 
-Durante o processo de indexação, o Elasticsearch armazena documentos e desenvolve um índice invertido para tornar os dados dos documentos buscáveis praticamente em tempo real. A indexação é iniciada com a API de índice, pela qual você pode adicionar ou atualizar um documento JSON em um índice específico.
+Durante o processo de indexação, o Elasticsearch armazena documentos e desenvolve um índice invertido para tornar os dados dos documentos buscáveis praticamente em tempo real. A indexação é iniciada com a API de índice, pela qual você pode adicionar ou atualizar um documento JSON em um índice específico.<br>
 
 Para aprender sobre a utilização desta API foi necessário procurar por outras fontes além da documentação do Elastic Search, dentre eles:
 * Documentação Elastic Search: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-body.html
@@ -46,15 +46,17 @@ Neste projeto, o site foi utilizado por vezes para realizar a tradução da requ
 
 
 ## 3. Exploração dos Dados
-Após realizar a extração dos dados da API para o Jupyter, foi iniciada a fase de exploração dos dados.
-Nesta fase a biblioteca Pandas
+Após realizar a extração dos dados da API para o Jupyter, foi iniciada a fase de exploração dos dados.<br>
+Nesta fase, a biblioteca Pandas será utilizada para realização da análise exploratória dos dados. <br>
 
 ## 4. Preparação dos Dados
+Após a fase de exploração dos dados, será iniciada a preparação dos dados. Nesta fase, os dados serão tratados e filtrados baseado nos problemas colocados anteriormente. <br>
 
 ## 5. Armazenamento dos Dados
-
+Nesta fase, será realizado o armazenamento dos dados em um arquivo SQL para que possamos realizar nossa apresentação dos dados posteriormente.<br>
 
 ## 6. Apresentação dos Dados
+A apresentação dos dados será realizada a partir de um arquivo Power BI.<br>
 
 ## Andamento do Projeto
 Em Andamento.<br>
