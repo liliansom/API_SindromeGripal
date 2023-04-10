@@ -50,7 +50,7 @@ Após realizar a extração dos dados da API para o Jupyter, foi iniciada a fase
 Nesta fase, a biblioteca Pandas será utilizada para realização da análise exploratória dos dados. <br>
 
 ## 4. Preparação dos Dados
-Após a fase de exploração dos dados, será iniciada a preparação dos dados. Nesta fase, os dados serão tratados e filtrados baseado nos problemas colocados anteriormente. <br>
+Nesta fase, os dados serão tratados e filtrados baseados nos problemas colocados anteriormente. Primordialmente, biblioteca pandas será utilizada nesta fase. <br>
 
 ## 5. Armazenamento dos Dados
 Nesta fase, será realizado o armazenamento dos dados em um arquivo SQL para que possamos realizar nossa apresentação dos dados posteriormente.<br>
