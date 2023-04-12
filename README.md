@@ -43,29 +43,29 @@ Para aprender sobre a utilização desta API foi necessário procurar por outras
 O OpenData SUS recomenda que seja utilizado o site Postman (https://www.postman.com/) para realizar a ingestão da API.<br>
 Neste projeto, o site foi utilizado por vezes para realizar a tradução da requisição para a linguagem Python e obtenção dos dados. Contudo, não foi utilizado em nenhuma outra etapa. A biblioteca pandas da linguagem Python foi a responsável pela importação dos dados para o notebook Jupyter.<br>
 obtencao_dados
-<img src="data/obtencao_dados.jpg" alt="Etapa 2">
+<img src="img/obtencao_dados.jpg" alt="Etapa 2">
 
 ## 3. Exploração dos Dados
 Após realizar a extração dos dados da API para o Jupyter, foi iniciada a fase de exploração dos dados.<br>
 Nesta fase, a biblioteca Pandas será utilizada para realização da análise exploratória dos dados.<br>
 
-<img src="data/prep.trat_dados.jpg" alt="Etapa 3">
+<img src="img/prep.trat_dados.jpg" alt="Etapa 3">
 
 
 ## 4. Preparação dos Dados
 Nesta fase, os dados serão tratados e filtrados baseados nos problemas colocados anteriormente. Primordialmente, biblioteca pandas será utilizada nesta fase. <br>
-<img src="data/prep.trat_dados.jpg" alt="Etapa 4">
+<img src="img/prep.trat_dados.jpg" alt="Etapa 4">
 
 
 ## 5. Armazenamento dos Dados
 Nesta fase, será realizado o armazenamento dos dados em um arquivo CSV para que possamos realizar nossa apresentação dos dados posteriormente.<br>
 
-<img src="data/prep.armazenamento_dados.jpg" alt="Etapa 5">
+<img src="img/prep.armazenamento_dados.jpg" alt="Etapa 5">
 
 ## 6. Apresentação dos Dados
 A apresentação dos dados será realizada a partir de um arquivo Power BI.<br>
 
-<img src="data/powerbi.jpg" alt="Etapa 6">
+<img src="img/powerbi.jpg" alt="Etapa 6">
 
 
 ## Andamento do Projeto
