@@ -42,7 +42,7 @@ Para aprender sobre a utilização desta API foi necessário procurar por outras
 
 O OpenData SUS recomenda que seja utilizado o site Postman (https://www.postman.com/) para realizar a ingestão da API.<br>
 Neste projeto, o site foi utilizado por vezes para realizar a tradução da requisição para a linguagem Python e obtenção dos dados. Contudo, não foi utilizado em nenhuma outra etapa. A biblioteca pandas da linguagem Python foi a responsável pela importação dos dados para o notebook Jupyter.<br>
-obtencao_dados
+
 <img src="img/obtencao_dados.jpg" alt="Etapa 2">
 
 ## 3. Exploração dos Dados
@@ -60,7 +60,7 @@ Nesta fase, os dados serão tratados e filtrados baseados nos problemas colocado
 ## 5. Armazenamento dos Dados
 Nesta fase, será realizado o armazenamento dos dados em um arquivo CSV para que possamos realizar nossa apresentação dos dados posteriormente.<br>
 
-<img src="img/prep.armazenamento_dados.jpg" alt="Etapa 5">
+<img src="img/armazenamento_dados.jpg" alt="Etapa 5">
 
 ## 6. Apresentação dos Dados
 A apresentação dos dados será realizada a partir de um arquivo Power BI.<br>
