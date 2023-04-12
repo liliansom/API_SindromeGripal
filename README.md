@@ -1,4 +1,39 @@
-# Ingestão API Síndrome Gripal Brasil
+# Notificações Compulsórias de Síndrome Gripal associado ao Covid-19 no Brasil
+A partir da ingestão de uma API Pública do OpenDataSUS que está no Elastic Search, será realizada uma análise inicial para compreender a API, após será realizada a exploratória dos dados, o tratamento dos dados e o armazenamento dos dados tratados e, por fim, a plotagem de tabelas e gráficos como resultado final.<br>
+
+O Elasticsearch é um mecanismo de busca e análise distribuído, de código aberto, que permite armazenar, buscar e analisar grandes volumes de dados de forma eficiente e em tempo real. É comumente utilizado para indexar e pesquisar dados em tempo real, como logs, métricas, dados de aplicativos e muito mais.<br>
+
+A API do Elasticsearch permite interagir com o Elasticsearch usando várias linguagens de programação, como Python, Java, PHP, entre outras. A API aceita solicitações HTTP e responde com dados em formato JSON. O JSON (JavaScript Object Notation) é um formato de dados leve, legível por humanos e amplamente utilizado para representar dados estruturados. É uma notação de valor-chave, onde os dados são representados em pares de chave e valor, que podem ser aninhados em estruturas hierárquicas.<br>
+
+## Ferramentas Utilizadas
+Desenvolvido com:<br>
+<li>Anaconda, https://www.anaconda.com/;</li>
+<li>Notebook Jupyter, https://jupyter.org/</li>
+<li>Utilizada linguagem Python 3.9, instaladas Bibliotecas Pandas, Matplotlib, Json, Requests, Datetime;</li>
+<li>Dados das notificações compulsórias de Síndromes Gripais, https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-api-elasticsearch;</li>
+<li>Postman, https://www.postman.com/</li>
+
+### Acessando o Projeto
+
+1. Anaconda/ Jupyter<br>
+
+Clonar este repositório para o seu Github.<br>
+Importar o repositório para uma pasta de seu computador.<br>
+Realizar a instalação do programa Anaconda, instalar o Python 3.9 e, dentro de Anaconda Navigator, realizar o download do Jupyter.<br>
+
+No prompt do Anaconda, realizar o download das bibliotecas Pandas, Matplotlib, Json, Requests, Datetime.<br>
+Abrir Jupyter Notebook no Anaconda.<br>
+Procurar pela pasta do repositório.<br>
+Abrir o arquivo 'SindromeGripal_API.ipynb',<br>
+Apertar em 'RUN'.<br>
+Após este passo, o programa irá rodar todos o projeto.<br>
+
+2) Google Colab<br>
+
+Caso não deseje clonar todo esse repositório, também será disponibilizado um arquivo no Google Colab.<br>
+Você só precisará clicar no link abaixo e clicar em "Ambiente de execução" e, em seguida, "Executar tudo".<br>
+
+<a class="nav-link" href="" target="_blank"></a><br>
 
 
 ## Passo a Passo
@@ -9,16 +44,19 @@
 5. Armazenamento dos Dados<br>
 6. Apresentação dos Dados<br>
 
-
 ## 1. Definição do Problema
-#### explicar sobre a api e elasticsearch
-A partir da ingestão de uma API Pública do OpenDataSUS que está no Elastic Search, será realizada uma análise inicial para compreender a API, após será realizada a exploratória dos dados, o tratamento dos dados e o armazenamento dos dados tratados e, por fim, a plotagem de tabelas e gráficos como resultado final.<br>
+Devido ao início do outono brasileiro em 2023 e a melhora aparente dos casos de COVID-19, surge a preocupação com o aumento de casos de Covid-19 neste ano.
+Será preciso utilizarmos máscara novamente para ir ao mercado?<br>
+Será que é seguro sairmos para as festas?<br>
+Será que é preciso nos atentarmos novamente com a ventilação dos ambientes?<br>
+Posso cumprimentar as pessoas com beijo no rosto?<br>
 
+Todas essas questões remetem à preocupação do retorno do Covid-19 e um cuidado com nossos entes queridos...
 
-Devido ao início do outono brasileiro em 2023 e a melhora aparente dos casos de COVID-19, surge a questão do aumento de casos de Covid-19 na próxima estação. Como questões norteadoras desta projeto, foram colocadas:<br>
+Para acompanharmos estas dúvidas, colocamos como questões da pesquisa:<br>
 * Questões Principais:<br>
-<li> Quantas são as notificações dos casos de síndrome gripal neste momento: no Brasil e em São Paulo?</li>
-<li> Será que haverá um aumento de notificações de síndrome gripal com o inverno? </li>
+<li> Quantas são as notificações diárias dos casos de síndrome gripal neste momento: no Brasil e em São Paulo?</li>
+<li> Será que haverá um aumento de notificações de síndrome gripal associadas ao Covid-19 com a chegada do tempo frio? </li>
 
 * Questões secundárias:<br>
 <li> Quais são os principais testes para detecção de COVID utilizados no país?</li>
