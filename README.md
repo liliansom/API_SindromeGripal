@@ -6,6 +6,7 @@ O Elasticsearch é um mecanismo de busca e análise distribuído, de código abe
 A API do Elasticsearch permite interagir com o Elasticsearch usando várias linguagens de programação, como Python, Java, PHP, entre outras. A API aceita solicitações HTTP e responde com dados em formato JSON. O JSON (JavaScript Object Notation) é um formato de dados leve, legível por humanos e amplamente utilizado para representar dados estruturados. É uma notação de valor-chave, onde os dados são representados em pares de chave e valor, que podem ser aninhados em estruturas hierárquicas.<br>
 
 ## Ferramentas Utilizadas
+
 Desenvolvido com:<br>
 <li>Anaconda, https://www.anaconda.com/;</li>
 <li>Notebook Jupyter, https://jupyter.org/</li>
@@ -13,7 +14,7 @@ Desenvolvido com:<br>
 <li>Dados das notificações compulsórias de Síndromes Gripais, https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-api-elasticsearch;</li>
 <li>Postman, https://www.postman.com/</li>
 
-### Acessando o Projeto
+## Acessando o Projeto
 
 1. Anaconda/ Jupyter<br>
 
@@ -37,6 +38,7 @@ Você só precisará clicar no link abaixo e clicar em "Ambiente de execução" 
 
 
 ## Passo a Passo
+
 1. Definição do Problema<br>
 2. Obtenção dos Dados<br>
 3. Exploração dos Dados<br>
