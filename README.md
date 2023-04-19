@@ -1,6 +1,12 @@
 # Notificações Compulsórias de Síndrome Gripal associado ao Covid-19 no Brasil
-A partir da ingestão de uma API Pública do OpenDataSUS que está no Elastic Search, será realizada uma análise inicial para compreender a API e, então, será realizada a exploração, o tratamento e o armazenamento dos dados tratados. Esses dados serão analisados eserão apresentados a partir de tabelas e gráficos.<br>
+A pandemia de COVID-19 é uma crise global de saúde pública que teve início em 2019 e continua afetando o mundo até o momento. Causada pelo coronavírus SARS-CoV-2, a doença foi inicialmente identificada em Wuhan, na China, e se espalhou rapidamente para outros países, levando à declaração de uma pandemia pela Organização Mundial da Saúde (OMS). A COVID-19 tem apresentado uma série de desafios, incluindo altas taxas de transmissão, gravidade variável dos sintomas e impactos significativos na saúde pública, economia e sociedade em geral. As medidas de controle e prevenção têm incluído isolamento social, uso de máscaras, higienização das mãos, desenvolvimento e distribuição de vacinas, além de esforços internacionais de colaboração para combater a propagação do vírus e minimizar os impactos da pandemia.
 
+A pandemia de COVID-19, devido à sua magnitude e impacto global, tem levado as autoridades de saúde em muitos países a adotarem a notificação compulsória de doenças como parte de suas estratégias de vigilância epidemiológica. Ela é necessária para garantir a detecção precoce, o monitoramento e o controle de doenças que possam representar um risco à saúde pública.
+
+No Brasil, realizamos a notificação compulsória da Síndrome Gripal com suspeita de COVID-19. Os dados gerados pelas notificações são armazenados na API do OpenData SUS (Elastic Search). 
+A partir da ingestão desta API será realizada uma análise inicial para compreender a ferramenta e, então, serão realizados a exploração, o tratamento e o armazenamento dos dados tratados. Esses dados serão analisados e serão apresentados a partir de tabelas e gráficos.<br>
+
+* Sobre a API
 O Elasticsearch é um mecanismo de busca e análise distribuído, de código aberto, que permite armazenar, buscar e analisar grandes volumes de dados de forma eficiente e em tempo real. É comumente utilizado para indexar e pesquisar dados em tempo real, como logs, métricas, dados de aplicativos e muito mais.<br>
 
 A API do Elasticsearch permite interagir com o Elasticsearch usando várias linguagens de programação, como Python, Java, PHP, entre outras. A API aceita solicitações HTTP e responde com dados em formato JSON. O JSON (JavaScript Object Notation) é um formato de dados leve, legível por humanos e amplamente utilizado para representar dados estruturados. É uma notação de valor-chave, onde os dados são representados em pares de chave e valor, que podem ser aninhados em estruturas hierárquicas.<br>
@@ -46,7 +52,7 @@ Você só precisará clicar no link abaixo e clicar em "Ambiente de execução" 
 5. Armazenamento dos Dados<br>
 6. Apresentação dos Dados<br>
 
-## 1. Definição do Problema
+### 1. Definição do Problema
 Devido ao início do outono brasileiro em 2023 e a melhora aparente dos casos de COVID-19, surge a preocupação com o aumento de casos de Covid-19 neste ano.
 Será preciso utilizarmos máscara novamente para ir ao mercado?<br>
 Será que é seguro sairmos para as festas?<br>
@@ -61,9 +67,9 @@ Para acompanharmos estas dúvidas, colocamos como questões da pesquisa:<br>
 <li> Será que haverá um aumento de notificações de síndrome gripal associadas ao Covid-19 com a chegada do tempo frio? </li>
 
 * Questões secundárias:<br>
-<li> Quais são os principais testes para detecção de COVID utilizados no país?</li>
+<li> Quais são os principais sintomas apresentados no momento?</li>
 
-## 2. Obtenção dos Dados
+### 2. Obtenção dos Dados
 Os dados serão coletados a partir da API do Elastic Search: https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-api-elasticsearch<br>
 
 Para aprender sobre a utilização desta API foi necessário procurar por outras fontes além da documentação do Elastic Search, dentre eles:
@@ -77,29 +83,29 @@ Neste projeto, o site foi utilizado por vezes para realizar a tradução da requ
 
 <img src="img/obtencao_dados.jpg" alt="Etapa 2">
 
-## 3. Exploração dos Dados
+### 3. Exploração dos Dados
 Após realizar a extração dos dados da API para o Jupyter, foi iniciada a fase de exploração dos dados.<br>
 Nesta fase, a biblioteca Pandas será utilizada para realização da análise exploratória dos dados.<br>
 
 <img src="img/prep.trat_dados.jpg" alt="Etapa 3">
 
 
-## 4. Preparação dos Dados
+### 4. Preparação dos Dados
 Nesta fase, os dados serão tratados e filtrados baseados nos problemas colocados anteriormente. Primordialmente, biblioteca pandas será utilizada nesta fase. <br>
 <img src="img/prep.trat_dados.jpg" alt="Etapa 4">
 
 
-## 5. Armazenamento dos Dados
+### 5. Armazenamento dos Dados
 Nesta fase, será realizado o armazenamento dos dados em um arquivo CSV para que seja possível realizar a apresentação dos dados posteriormente.<br>
 
 <img src="img/armazenamento_dados.jpg" alt="Etapa 5">
 
-## 6. Apresentação dos Dados
+### 6. Apresentação dos Dados
 A apresentação dos dados será realizada a partir de um arquivo Power BI.<br>
 
 <img src="img/powerbi.jpg" alt="Etapa 6">
 
 
-## Andamento do Projeto
-Em Andamento.<br>
-Data de Entrega: 12/04/2023.
+### Andamento do Projeto
+Entregue.<br>
+
