@@ -37,7 +37,7 @@ Após este passo, o programa irá rodar todos o projeto.<br>
 
 2) Google Colab<br>
 
-Caso não deseje clonar todo esse repositório, também será disponibilizado um arquivo no Google Colab.<br>
+Caso não deseje clonar todo esse repositório, também será disponibilizado um arquivo do tratamento de dados no Google Colab.<br>
 Você só precisará clicar no link abaixo e clicar em "Ambiente de execução" e, em seguida, "Executar tudo".<br>
 
 <a class="nav-link" href="https://colab.research.google.com/drive/1cQQ7vPiZiu5DuEiw9Km5vdQMNMaDWP2x?usp=sharing" target="_blank">Clique aqui</a><br>
@@ -52,7 +52,7 @@ Você só precisará clicar no link abaixo e clicar em "Ambiente de execução" 
 5. Armazenamento dos Dados<br>
 6. Apresentação dos Dados<br>
 
-### 1. Definição do Problema
+### 1. Definição do Problema - [x]
 Devido ao início do outono brasileiro em 2023 e a melhora aparente dos casos de COVID-19, surge a preocupação com o aumento de casos de Covid-19 neste ano.
 Será preciso utilizarmos máscara novamente para ir ao mercado?<br>
 Será que é seguro sairmos para as festas?<br>
@@ -69,7 +69,7 @@ Para acompanharmos estas dúvidas, colocamos como questões da pesquisa:<br>
 * Questões secundárias:<br>
 <li> Quais são os principais sintomas apresentados no momento?</li>
 
-### 2. Obtenção dos Dados
+### 2. Obtenção dos Dados - [x]
 Os dados serão coletados a partir da API do Elastic Search: https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-api-elasticsearch<br>
 
 Para aprender sobre a utilização desta API foi necessário procurar por outras fontes além da documentação do Elastic Search, dentre eles:
@@ -83,24 +83,24 @@ Neste projeto, o site foi utilizado por vezes para realizar a tradução da requ
 
 <img src="img/obtencao_dados.jpg" alt="Etapa 2">
 
-### 3. Exploração dos Dados
+### 3. Exploração dos Dados - [x]
 Após realizar a extração dos dados da API para o Jupyter, foi iniciada a fase de exploração dos dados.<br>
 Nesta fase, a biblioteca Pandas será utilizada para realização da análise exploratória dos dados.<br>
 
 <img src="img/prep.trat_dados.jpg" alt="Etapa 3">
 
 
-### 4. Preparação dos Dados
+### 4. Preparação dos Dados - [x]
 Nesta fase, os dados serão tratados e filtrados baseados nos problemas colocados anteriormente. Primordialmente, biblioteca pandas será utilizada nesta fase. <br>
 <img src="img/prep.trat_dados.jpg" alt="Etapa 4">
 
 
-### 5. Armazenamento dos Dados
+### 5. Armazenamento dos Dados - [x]
 Nesta fase, será realizado o armazenamento dos dados em um arquivo CSV para que seja possível realizar a apresentação dos dados posteriormente.<br>
 
 <img src="img/armazenamento_dados.jpg" alt="Etapa 5">
 
-### 6. Apresentação dos Dados
+### 6. Apresentação dos Dados - [x]
 A apresentação dos dados será realizada a partir de um arquivo Power BI.<br>
 
 <img src="img/telapbi1.png" alt="Etapa 6">
