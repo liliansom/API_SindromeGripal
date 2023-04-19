@@ -34,7 +34,7 @@ Após este passo, o programa irá rodar todos o projeto.<br>
 Caso não deseje clonar todo esse repositório, também será disponibilizado um arquivo no Google Colab.<br>
 Você só precisará clicar no link abaixo e clicar em "Ambiente de execução" e, em seguida, "Executar tudo".<br>
 
-<a class="nav-link" href="" target="_blank"></a><br>
+<a class="nav-link" href="https://colab.research.google.com/drive/1cQQ7vPiZiu5DuEiw9Km5vdQMNMaDWP2x?usp=sharing" target="_blank">Clique aqui</a><br>
 
 
 ## Passo a Passo
