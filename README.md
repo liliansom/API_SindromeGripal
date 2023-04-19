@@ -103,7 +103,7 @@ Nesta fase, será realizado o armazenamento dos dados em um arquivo CSV para que
 ### 6. Apresentação dos Dados
 A apresentação dos dados será realizada a partir de um arquivo Power BI.<br>
 
-<img src="img/powerbi.jpg" alt="Etapa 6">
+<img src="img/telapbi1.png" alt="Etapa 6">
 
 
 ### Andamento do Projeto
